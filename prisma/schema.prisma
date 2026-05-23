@@ -26,8 +26,6 @@ model User {
 
 model Profile {
   id Int @id @default(autoincrement())
-  name String
-  surname String
   maritalStatus String?
   homeTown String?
   currentCity String?
